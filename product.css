@@ -1,0 +1,31 @@
+
+img{
+  width: 100%;
+}
+body{
+  font-size: 20px;
+}
+header{
+  display: inline;
+}
+.nav-link{
+  margin: 0 auto;
+  float: left;
+  margin-right: 3px;
+  text-decoration: underline;
+  color: gray;
+  width: 100%;
+  text-align: center;
+  display: inline;
+  padding: 0px;;
+
+}
+.nav-link:hover{
+  font-weight: bold;
+  color: black;
+}
+
+
+@media(min-width: 500px){
+
+}

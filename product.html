@@ -4,9 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="product.css">
+  <title>Product Landing Page</title>
 </head>
 <body>
-
+  <header id="header">
+    <img src="https://source.unsplash.com/random/200x70" alt="random" id="header-img">
+    <nav id="nav-bar">
+      <a href="" class="nav-link">About</a>
+      <a href="" class="nav-link">Products</a>
+      <a href="" class="nav-link">Prices</a>
+    </nav>
+    <div id="product-video">
+      <video id="video" src=""></video>
+    </div>
+    <form  id="form" action="https://www.freecodecamp.com/email-submit">
+      <fieldset>
+        <label for="email"></label>
+        <input name="email" type="email" id="email" placeholder="Enter email here" required/>
+        <input type="submit" id="submit" value="Subscribe" class="btn"/>
+      </fieldset>
+    </form>
+  </header>
+  <div id="about"></div>
+  <div id="products"></div>
+  <div id="prices"></div>
 </body>
 </html>
