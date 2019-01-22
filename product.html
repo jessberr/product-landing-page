@@ -8,26 +8,50 @@
   <title>Product Landing Page</title>
 </head>
 <body>
-  <header id="header">
-    <img src="https://source.unsplash.com/random/200x70" alt="random" id="header-img">
-    <nav id="nav-bar">
-      <a href="" class="nav-link">About</a>
-      <a href="" class="nav-link">Products</a>
-      <a href="" class="nav-link">Prices</a>
-    </nav>
-    <div id="product-video">
-      <video id="video" src=""></video>
-    </div>
+  <div id="header-container">
+    <header id="header">
+      <img src="https://images.pexels.com/photos/1189675/pexels-photo-1189675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="spools of thread" id="header-img">
+      <a href="#" id="store-name">Needle's Crafting</a>
+      <nav id="nav-bar">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#policies" class="nav-link">Policies</a>
+      </nav>
+      </header>
+  </div>
+  <div id="product-video">
+    <h3>Featured Tutorial</h3>
+    <iframe src="https://www.youtube.com/embed/CPHgyubZNgw" id="video"
+ width="300" height="215" frameborder="0" allowfullscreen></iframe>
+  </div>
     <form  id="form" action="https://www.freecodecamp.com/email-submit">
+      <caption id="form-title">Keep in the loop! Sign up to hear about new products and learn through our tutorials as soon as they arrive.</caption>
       <fieldset>
         <label for="email"></label>
         <input name="email" type="email" id="email" placeholder="Enter email here" required/>
         <input type="submit" id="submit" value="Subscribe" class="btn"/>
       </fieldset>
     </form>
-  </header>
-  <div id="about"></div>
-  <div id="products"></div>
-  <div id="prices"></div>
+  <div id="about">
+    <h3>What is Needle's Crafting?</h3>
+    <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam voluptas reiciendis praesentium nam at quam ex iure, aliquid non, eveniet accusantium incidunt aspernatur et, veniam. Voluptatum accusamus, sed deleniti consequuntur reprehenderit dicta neque nihil!</p>
+  </div>
+  <h3>Gallery</h3>
+  <div id="gallery">
+
+    <div id="gallery-grid">
+      <img src="https://source.unsplash.com/random/220x260" alt="random">
+      <img src="https://source.unsplash.com/random/220x261" alt="random">
+      <img src="https://source.unsplash.com/random/220x262" alt="random">
+      <img src="https://source.unsplash.com/random/220x263" alt="random">
+      <img src="https://source.unsplash.com/random/220x264" alt="random">
+      <img src="https://source.unsplash.com/random/220x265" alt="random">
+
+    </div>
+  </div>
+  <div id="policies">
+    <h3>Shipping and Return Policies</h3>
+    <p id="ship-return-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam voluptas reiciendis praesentium nam at quam ex iure, aliquid non, eveniet accusantium incidunt aspernatur et, veniam. Voluptatum accusamus, sed deleniti consequuntur reprehenderit dicta neque nihil!</p>
+  </div>
 </body>
 </html>
